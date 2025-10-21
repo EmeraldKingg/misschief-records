@@ -107,6 +107,33 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+.hero {
+  text-align: center;
+  margin-top: 60px; /* adjust as needed */
+}
+
+.hero-logo {
+  width: 300px; /* adjust to fit */
+  max-width: 80%;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-out;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 /* Bio Header */
